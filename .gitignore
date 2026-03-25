@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 构建产物
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 原始素材目录（非代码库内容）
+raw-assets/
+
+# 开发辅助脚本
+scripts/
+
+# 开发任务记录
+task.md
+
+# 视频文件（体积过大）
+*.mp4
+*.mov
+*.avi
+
+# 未被代码引用的原始大图（可安全排除）
+public/images/2000米声通.jpg
+public/images/2000米声通及手册.png
+public/images/IMG_20210319_141645.jpg
+public/images/IMG_20210203_135149.jpg
+public/images/tinymodem oem.jpg
+public/images/tinymodem oem 2.jpg
+public/images/微信图片_20260320224140_3037_835.png
+public/images/seatrix2000-banner.png

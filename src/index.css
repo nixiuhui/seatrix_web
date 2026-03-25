@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities {
+  .glass {
+    @apply bg-white/90 backdrop-blur-md border border-gray-200 shadow-sm;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-4 tracking-tight;
+  }
+  .section-subtitle {
+    @apply text-sm md:text-base font-semibold text-blue-600 tracking-widest uppercase mb-2;
+  }
+}
+
+body {
+  @apply bg-white text-gray-600 font-sans antialiased selection:bg-blue-600/30 selection:text-blue-900 overflow-x-hidden leading-relaxed;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-50;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
